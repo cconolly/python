@@ -59,14 +59,14 @@ while True:
         print('Estado Civil Inválido! Digite novamente!')
 
 
-os.system('cls')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 lin()
 print('CADASTRO REALIZADO COM SUCESSO!')
 lin()
 time.sleep(2)
 
-os.system('cls')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 lin()
 print('Nome:', nome)
